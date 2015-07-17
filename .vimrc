@@ -195,3 +195,6 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry
+"***********cuda highlight *********
+au BufNewFile,BufRead *.cu set filetype=cuda
+au BufNewFile,BufRead *.cuh set filetype=cuda
